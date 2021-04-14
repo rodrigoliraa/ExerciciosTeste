@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <meta charset ="UTF-8">
+    <title>Meu malvado favorito!</title>
+
+    <style>
+        body{
+            background-color: red;
+            color: white;
+        }
+        h1{
+            text-align: right;
+        }
+    </style>
+
+
+    <body>
+        <h1>Mais em baixo você irá ver minhas ánalises</h1>
+        <hr>
+        
+
+        
+
+        <script>
+            var nome = window.prompt("Digite seu nome")
+            var n1 = Number.parseFloat(window.prompt("Digite nota 1"))
+            var n2 = Number.parseFloat(window.prompt("Digite nota 2"))
+            var media = (n1+n2)/2
+            document.write(`Olá: ${nome}<br>`)
+            document.write(`Seu nome tem: <strong>${nome.length}</strong> letras.<br>`)
+            document.write(`Seu nome em maiúsculos fica: <strong>${nome.toUpperCase()}</strong> <br>`)
+            document.write(`Seu nome minúsculos fica: ${nome.toLowerCase()}<br>`)
+            document.write(`Sua nota 1 foi: ${n1}<br>`)
+            document.write(`Sua nota 2 foi: ${n2}<br>`)
+            document.write(`Sedo assim ${nome.toUpperCase()}, sua nota1 foi ${n1}, a nota 2 ficou ${n2}, e sua media fechou em ${media}`)
+
+
+        </script>
+    </body>
+
+
+</html>
+
